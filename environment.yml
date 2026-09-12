@@ -1,0 +1,22 @@
+name: hype-dti
+channels:
+  - pytorch
+  - dglteam
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pytorch=1.8.1
+  - cudatoolkit=11.1
+  - dgl-cuda11.1=0.6.0post1
+  - matplotlib=3.4.2
+  - numpy=1.24.4
+  - pandas=2.0.3
+  - scikit-learn=0.24.1
+  - networkx=3.1
+  - pip:
+      - dgllife==0.2.9
+      - fair-esm==2.0.0
+      - gdown==5.2.0
+      - rdkit-pypi==2021.9.2.1
+      - transformers==4.38.2

@@ -1,0 +1,29 @@
+# Python and local tooling
+__pycache__/
+*.py[cod]
+*.log
+*.pickle
+.pytest_cache/
+.DS_Store
+
+# Generated run outputs
+debug_exports/
+local_logs/
+logs/
+logs_distill/
+output/
+tmp/
+
+# External or generated model artifacts
+var_data/drkg.tsv
+var_data/*_20shots_*/
+var_data/*_40shots_*/
+var_data/*_cs_*/
+var_features/
+var_models/
+var_pkls/
+
+# Archives and generated documents are not part of the runnable repository.
+*.zip
+*.pdf
+*.docx
